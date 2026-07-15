@@ -6,7 +6,7 @@ Write a function to find the **longest common prefix string** among an array of 
 
 If there is no common prefix, return an empty string `""`.
 
----
+
 
 ## Example 1
 
@@ -22,7 +22,7 @@ strs = ["flower", "flow", "flight"]
 "fl"
 ```
 
----
+
 
 ## Example 2
 
@@ -38,7 +38,7 @@ strs = ["dog", "racecar", "car"]
 ""
 ```
 
----
+
 
 ## Approach
 
@@ -53,7 +53,7 @@ strs = ["dog", "racecar", "car"]
 
 Since all strings lie between the first and last strings after sorting, the common prefix of these two strings is the common prefix of the entire array.
 
----
+
 
 ## Algorithm
 
@@ -64,7 +64,7 @@ Since all strings lie between the first and last strings after sorting, the comm
 5. Stop at the first mismatch.
 6. Return the result.
 
----
+
 
 ## Time Complexity
 
@@ -73,17 +73,17 @@ Since all strings lie between the first and last strings after sorting, the comm
 
 **Overall:** `O(n log n + m)`
 
----
+
 
 ## Space Complexity
 
 - **O(1)** (Ignoring the space used by sorting)
 
----
 
 
 
----
+
+
 
 ## Concepts Used
 
@@ -92,13 +92,12 @@ Since all strings lie between the first and last strings after sorting, the comm
 - String Manipulation
 - Character Comparison
 
----
+
 
 ## Difficulty
 
 🟢 Easy
 
----
 
 ## Platform
 

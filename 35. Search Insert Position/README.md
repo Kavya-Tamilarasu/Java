@@ -79,27 +79,6 @@ nums = [1,3,5,6], target = 7
 
 
 
-## Dry Run
-
-### Input
-
-```text
-nums = [1,3,5,6]
-target = 2
-```
-
-| left | right | mid | nums[mid] | Action |
-|-----:|------:|----:|----------:|--------|
-| 0 | 3 | 1 | 3 | right = 0 |
-| 0 | 0 | 0 | 1 | left = 1 |
-
-Return:
-
-```text
-1
-```
-
----
 
 ## Time Complexity
 
